@@ -1,10 +1,19 @@
 import React from "react";
 import Home from "./components/home";
+import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
+import Licenses from "./components/Licenses";
+import Contact from "./components/contact";
+import ProfessionalOrg from "./components/ProfessionalOrg";
 const App = () => {
   return (
     <div>
-      <h1>Keah's Website</h1>
       <Home />
+      <AboutMe />
+      <Licenses />
+      <Experience />
+      <ProfessionalOrg />
+      <Contact />
     </div>
   );
 };
