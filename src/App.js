@@ -5,15 +5,26 @@ import Experience from "./components/Experience";
 import Licenses from "./components/Licenses";
 import Contact from "./components/contact";
 import ProfessionalOrg from "./components/ProfessionalOrg";
+import Navbar from "./components/Navbar";
+import { Switch, Route } from "react-router-dom";
 const App = () => {
   return (
     <div>
       <Home />
+      <Navbar />
       <AboutMe />
       <Licenses />
       <Experience />
       <ProfessionalOrg />
       <Contact />
+      <Switch>
+        <Route exact path="/" render={() => <Home />} />
+        <Route exact path="/experience" render={() => <Experience />} />
+        <Route exact path="/licenses" render={() => <Licenses />} />
+        <Route exact path="/professional" render={() => <ProfessionalOrg />} />
+        <Route exact path="/contact" render={() => <Contact />} />
+        <Route exact path="/about" render={() => <AboutMe />} />
+      </Switch>
     </div>
   );
 };

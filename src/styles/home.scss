@@ -1,4 +1,15 @@
 .head {
   display: flex;
   justify-content: center;
+
+  background-image: url("https://previews.123rf.com/images/dimasobko/dimasobko1712/dimasobko171200290/90877004-medicine-herbal-pills-with-leaf-on-white-table-alternative-organic-therapy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vw;
+  h1 {
+    font-size: 70px;
+  }
+  p {
+    font-size: 40px;
+  }
 }
