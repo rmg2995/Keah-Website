@@ -2,7 +2,7 @@ import React from "react";
 
 const ProfessionalOrg = () => {
   return (
-    <div>
+    <div id="professional">
       <h1>Professional Organizations Memberships</h1>
       <ul>
         <li>The Honor Society of Phi Kappa Phi</li>

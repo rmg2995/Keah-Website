@@ -3,7 +3,7 @@ import Keah from "./images/Gutierrez_Keah copy.jpg";
 import "../styles/aboutme.scss";
 const AboutMe = () => {
   return (
-    <div>
+    <div id="yourAnchorTag">
       <h2>Profile</h2>
       <p>I'm a future Pharmacist</p>
       <h3>About Me</h3>

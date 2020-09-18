@@ -2,7 +2,7 @@ import React from "react";
 
 const Licenses = () => {
   return (
-    <div>
+    <div id="licenses">
       <h1>Licenses And Certifications</h1>
       <h3>Community Pharmacy-Based Point-of Care Testing Certification</h3>
       <p>National Association of Chain Drug Stores (NACDS)</p>

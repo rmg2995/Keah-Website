@@ -17,14 +17,14 @@ const App = () => {
       <Experience />
       <ProfessionalOrg />
       <Contact />
-      <Switch>
+      {/* <Switch>
         <Route exact path="/" render={() => <Home />} />
         <Route exact path="/experience" render={() => <Experience />} />
         <Route exact path="/licenses" render={() => <Licenses />} />
         <Route exact path="/professional" render={() => <ProfessionalOrg />} />
         <Route exact path="/contact" render={() => <Contact />} />
         <Route exact path="/about" render={() => <AboutMe />} />
-      </Switch>
+      </Switch> */}
     </div>
   );
 };
