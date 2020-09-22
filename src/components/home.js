@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.scss";
+//testing
 const home = () => {
   return (
     <div className="head" id="top">
