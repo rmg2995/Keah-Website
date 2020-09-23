@@ -10,8 +10,8 @@ import { Switch, Route } from "react-router-dom";
 const App = () => {
   return (
     <div>
-      <Home />
       <Navbar />
+      <Home />
       <AboutMe />
       <Licenses />
       <Experience />
