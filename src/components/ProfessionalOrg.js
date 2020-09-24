@@ -1,8 +1,8 @@
 import React from "react";
-
+import "../styles/professionalOrg.scss";
 const ProfessionalOrg = () => {
   return (
-    <div id="professional">
+    <div id="professional" className="professional">
       <h1>Professional Organizations Memberships</h1>
       <ul>
         <li>The Honor Society of Phi Kappa Phi</li>
