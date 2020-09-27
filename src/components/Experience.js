@@ -1,8 +1,8 @@
 import React from "react";
-
+import "../styles/Experience.scss";
 const Experience = () => {
   return (
-    <div id="experience">
+    <div id="experience" className="experience">
       <h1>Community Service</h1>
       <h3>Community Fest 2020 Health Fair</h3>
       <p>
