@@ -1,4 +1,15 @@
 .professional {
   background-color: rgb(5, 207, 207);
   margin: 20px 0;
+  color: white;
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    padding: 20px 0;
+  }
 }
