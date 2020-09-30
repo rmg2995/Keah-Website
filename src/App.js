@@ -6,6 +6,7 @@ import Licenses from "./components/Licenses";
 import Contact from "./components/contact";
 import ProfessionalOrg from "./components/ProfessionalOrg";
 import Navbar from "./components/Navbar";
+import Education from "./components/Education";
 import { Switch, Route } from "react-router-dom";
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Home />
       <AboutMe />
       <Licenses />
+      <Education />
       <Experience />
       <ProfessionalOrg />
       <Contact />

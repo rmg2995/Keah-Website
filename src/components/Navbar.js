@@ -17,6 +17,9 @@ const Navbar = () => {
         <Link className="menu-item" to="/licenses#licenses">
           Licenses
         </Link>
+        <Link className="menu-item" to="/education#education">
+          Education
+        </Link>
         <Link className="menu-item" to="/experience#experience">
           Experience
         </Link>
