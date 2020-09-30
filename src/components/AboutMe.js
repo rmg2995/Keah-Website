@@ -29,7 +29,16 @@ const AboutMe = () => {
       <div className="about-me">
         <section>
           <h3>About Me</h3>
-          <p>For Keah to write</p>
+          <p className="paragraph">
+            I am a pharmacy student attending Nova Southeastern University’s
+            College of Pharmacy. After graduation, my goal is to go on to
+            residency and, ultimately, work as a pediatric pharmacist in a
+            clinical setting. As a dedicated, self-motivated team-player, I aim
+            to fulfill my role in the healthcare team in providing quality
+            patient-centered care. When I’m not working on my career goals, I
+            enjoy spending time with my husband and sons, participating at my
+            church, and practicing my piano skills.{" "}
+          </p>
         </section>
         <img src={Keah} alt="Keah professional photo" />
         <section>
